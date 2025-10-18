@@ -30,27 +30,28 @@ function setupFacebookPixel() {
     window.onload = function () {
         const consent = getCookie('cookie_consent');
         const banner = document.getElementById('cookie-consent-banner');
+
         if (consent === 'accepted') {
             loadMetaPixel();
-            banner.classList.add('d-none')
+            banner.classList.add('d-none');
         } else if (consent === 'rejected') {
-            banner.classList.add('d-none')
+            banner.classList.add('d-none');
         } else {
-            banner.classList.remove('d-none')
+            banner.classList.remove('d-none');
         }
     }
 
     document.getElementById('accept-cookies').onclick = function () {
         setCookie('cookie_consent', 'accepted', 365);
         loadMetaPixel();
-        const banner = document.getElementById('cookie-consent-banner')
-        banner.classList.add('d-none')
-        console.log(el)
+        const banner = document.getElementById('cookie-consent-banner');
+        banner.classList.add('d-none');
     }
 
     document.getElementById('reject-cookies').onclick = function () {
         setCookie('cookie_consent', 'rejected', 365);
-        const banner = document.getElementById('cookie-consent-banner')
-        banner.classList.add('d-none')
+        const banner = document.getElementById('cookie-consent-banner');
+        banner.classList.add('d-none');
     }
+
 }
