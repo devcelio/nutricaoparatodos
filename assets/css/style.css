@@ -14,19 +14,27 @@
 .my-primary-btn {
     background: var(--my-primary);
     color: white;
+
+}
+
+
+.my-primary-btn:hover {
+    background-color: var(--my-primary) !important;
+    color: white;
+    filter: brightness(1.1);
+}
+
+.my-primary-btn.animated {
+    background-color: var(--my-primary) !important;
+    color: white;
     animation: ease-out 1s resizing infinite alternate-reverse;
+    filter: brightness(1.1);
 }
 
 .menu {
     backdrop-filter: blur(15px);
     -webkit-backdrop-filter: blur(15px);
     background-color: rgba(0, 0, 0, 0.5);
-}
-
-.my-primary-btn:hover {
-    background-color: var(--my-primary) !important;
-    color: white;
-    filter: brightness(1.1);
 }
 
 .my-table thead th {
