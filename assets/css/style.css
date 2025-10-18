@@ -1,0 +1,82 @@
+:root {
+    --my-primary: #1997b0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-my-primary {
+    background-color: var(--my-primary) !important;
+}
+
+.text-my-primary {
+    color: var(--my-primary) !important;
+}
+
+.my-primary-btn {
+    background: var(--my-primary);
+    color: white;
+    animation: ease-out 1s resizing infinite alternate-reverse;
+}
+
+.menu {
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.my-primary-btn:hover {
+    background-color: var(--my-primary) !important;
+    color: white;
+    filter: brightness(1.1);
+}
+
+.my-table thead th {
+    background-color: var(--my-primary);
+    color: white;
+}
+
+.my-table thead tr, tr {
+    background-color: inherit !important;
+    line-height: 40px;
+}
+
+
+.title-2 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-text {
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.section {
+    padding-top: 120px;
+}
+
+.spacer {
+    height: 120px;
+}
+
+.footer {
+    padding-block: 44px;
+}
+
+.figure img {
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+.figure img:hover {
+    transform: scale(1.03);
+}
+
+@keyframes resizing {
+    from {
+        transform: scale(0.99);
+    }
+
+    to {
+        transform: scale(1.05);
+    }
+}
