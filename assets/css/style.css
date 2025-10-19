@@ -79,6 +79,10 @@
     transform: scale(1.03);
 }
 
+strong {
+    font-weight: 500;
+}
+
 @keyframes resizing {
     from {
         transform: scale(0.99);
