@@ -1,5 +1,3 @@
-
-
 const PROJECT_TITLE = "Imersão - Nutrição Para Todos";
 const PROJECT_SLOGAN = "Saúde, saber e sabor no seu dia a dia.";
 const PROJECT_VIDEO = "https://www.youtube.com/embed/cBFAyrLfeZ0";
@@ -100,7 +98,7 @@ const FOOTER_DESCRIPTION = 'Jornada que democratiza o acesso ao conhecimento sob
 const WHATSAPP_MESSAGE = encodeURIComponent(`Olá, gostaria de mais informações sobre o ${PROJECT_TITLE}!`);
 
 const FOOTER_LINKS = [
-    { label: "imersaonutricaoparatodos@gmail.com", href: "mailto:imersaonutricaoparatodos@gmail.com" },
+    { label: "imersaonutricaoparatodos@gmail.com", href: "https://mail.google.com/mail/?view=cm&fs=1&to=imersaonutricaoparatodos@gmail.com" },
     { label: "@institutonutricaoparatodos", href: "https://www.instagram.com/institutonutricaoparatodos/" },
     { label: "+55 (81) 9 81950-5939", href: `https://wa.me/5581981950593?text=${WHATSAPP_MESSAGE}` },
 ];
