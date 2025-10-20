@@ -100,7 +100,7 @@ const WHATSAPP_MESSAGE = encodeURIComponent(`Olá, gostaria de mais informaçõe
 const FOOTER_LINKS = [
     { label: "imersaonutricaoparatodos@gmail.com", href: "https://mail.google.com/mail/?view=cm&fs=1&to=imersaonutricaoparatodos@gmail.com" },
     { label: "@institutonutricaoparatodos", href: "https://www.instagram.com/institutonutricaoparatodos/" },
-    { label: "+55 (81) 9 81950-5939", href: `https://wa.me/5581981950593?text=${WHATSAPP_MESSAGE}` },
+    { label: "+55 (81) 9 8195-0593", href: `https://wa.me/5581981950593?text=${WHATSAPP_MESSAGE}` },
 ];
 
 
